@@ -1,4 +1,6 @@
 #Vending machine choices
+
+class VendingMachine:
     def __init__(self):
         self.items = {
             'A1': {'name': 'Doritos', 'price': 7.50, 'stock': 1},
